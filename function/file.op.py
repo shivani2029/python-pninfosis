@@ -1,0 +1,7 @@
+f= open ("./function/file.txt","r")
+print(f.read(3))
+print(f.read(3))
+print(f.read())
+print(f.read())
+f.seek(2)
+print(f.read())

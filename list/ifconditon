@@ -1,0 +1,7 @@
+a= int(input("Enter the number"))
+
+if a==4:
+    print("a contains number 4")
+else:
+    print("a contains a different number than 4")
+print("ending")
